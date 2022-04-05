@@ -14,9 +14,10 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.111.143.114
   environments:
   - key: dev
-    owner: wwaosldk
+    owner: nillworld
     repository: jenkinsx-minikube
   - key: staging
   - key: production
@@ -28,6 +29,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: wwaosldk
   repository: bucketrepo
   secretStorage: local
   vault: {}
