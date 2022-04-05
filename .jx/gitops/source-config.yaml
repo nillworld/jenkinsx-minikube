@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: go-http-test
+    - name: goland-test
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
